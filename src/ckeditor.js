@@ -43,7 +43,8 @@ import HorizontalLine from '@ckeditor/ckeditor5-horizontal-line/src/horizontalli
 
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 
-export default class ClassicEditor extends ClassicEditorBase {}
+export default class ClassicEditor extends ClassicEditorBase {
+}
 
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
